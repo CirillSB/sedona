@@ -1423,6 +1423,60 @@ button,
   justify-content: center;
 }
 
+.welcome__banner {
+  position: relative;
+  background-image: url("../img/index-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 4.25vw 0 6.8333333333vw;
+}
+
+.welcome__banner::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  background: url("../img/svg/divider.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.welcome__heading {
+  padding: 5.25vw 0 7.5vw;
+}
+
+.welcome__title {
+  margin: 0 0 2.5833333333vw 0;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.welcome__subtitle {
+  margin: 0;
+  font-size: 1.8333333333vw;
+  line-height: 2.1666666667vw;
+  text-align: center;
+}
+
 /* @mixin hover-focus {
     @media (hover: hover) {
       &:hover:not(.focus-visible) {
