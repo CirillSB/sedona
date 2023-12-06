@@ -1,0 +1,16 @@
+.button {
+  font-weight: 700;
+  font-size: size(16px);
+  line-height: size(20px);
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-default-white;
+  border: none;
+  border-radius: size(4px);
+
+  &--want {
+    background-color: $color-pine-cone;
+    display: inline-block;
+    padding: size(9px) size(25px) size(8px);
+  }
+}

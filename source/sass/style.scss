@@ -9,6 +9,7 @@
 // ---------------------------------
 
 @import "variables";
+@import "function";
 @import "mixins";
 @import "global/fonts";
 @import "global/reboot";
@@ -23,6 +24,11 @@
 @import "blocks/custom-input";
 @import "blocks/custom-toggle";
 @import "blocks/custom-select";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/navigation";
+@import "blocks/button";
+@import "blocks/favorite";
 
 // ---------------------------------
 

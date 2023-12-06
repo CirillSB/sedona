@@ -11,9 +11,18 @@
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "";
+  font-family: "ptsans-400";
 
   font-display: swap;
   src:
-    url("../fonts/.woff2") format("woff2");
+    url("../fonts/ptsans-400.woff2") format("woff2");
 }
+// @font-face {
+//   font-style: normal;
+//   font-weight: 700;
+//   font-family: "ptsans-700";
+
+//   font-display: swap;
+//   src:
+//     url("../fonts/ptsans-700.woff2") format("woff2");
+// }
