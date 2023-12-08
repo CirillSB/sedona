@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   font-weight: 700;
   font-size: size(16px);
   line-height: size(20px);
@@ -10,7 +11,11 @@
 
   &--want {
     background-color: $color-pine-cone;
-    display: inline-block;
     padding: size(9px) size(25px) size(8px);
+  }
+
+  &--search {
+    background-color: $color-pine-cone;
+    padding: size(12px) size(149px);
   }
 }

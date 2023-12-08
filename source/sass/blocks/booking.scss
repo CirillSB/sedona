@@ -1,0 +1,15 @@
+.booking {
+  padding: size(90px) 0 size(93px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.booking__title {
+  margin: 0 0 size(29px);
+}
+
+.booking__subtitle {
+  margin: 0 0 size(56px);
+}

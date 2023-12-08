@@ -1383,6 +1383,7 @@ button,
 }
 
 .button {
+  display: inline-block;
   font-weight: 700;
   font-size: 1.3333333333vw;
   line-height: 1.6666666667vw;
@@ -1395,8 +1396,12 @@ button,
 
 .button--want {
   background-color: #756157;
-  display: inline-block;
   padding: 0.75vw 2.0833333333vw 0.6666666667vw;
+}
+
+.button--search {
+  background-color: #756157;
+  padding: 1vw 12.4166666667vw;
 }
 
 .favorites {
@@ -1421,6 +1426,21 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.subtitle {
+  font-size: 1.8333333333vw;
+  line-height: 2.1666666667vw;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .welcome__banner {
@@ -1460,19 +1480,10 @@ button,
 
 .welcome__title {
   margin: 0 0 2.5833333333vw 0;
-  font-weight: 700;
-  font-size: 2.5vw;
-  line-height: 3vw;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
 }
 
 .welcome__subtitle {
   margin: 0;
-  font-size: 1.8333333333vw;
-  line-height: 2.1666666667vw;
-  text-align: center;
 }
 
 .reasons__list {
@@ -1564,6 +1575,31 @@ button,
   font-size: 2vw;
   line-height: 2.3333333333vw;
   text-transform: uppercase;
+}
+
+.booking {
+  padding: 7.5vw 0 7.75vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.booking__title {
+  margin: 0 0 2.4166666667vw;
+}
+
+.booking__subtitle {
+  margin: 0 0 4.6666666667vw;
 }
 
 /* @mixin hover-focus {
