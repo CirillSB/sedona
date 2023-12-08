@@ -1,0 +1,33 @@
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+
+  input {
+    box-sizing: border-box;
+    width: size(600px);
+    height: size(60px);
+    padding: 0 size(22px);
+    font-size: size(18px);
+    line-height: size(21px);
+    color: $color-default-black;
+    border: size(1px) solid $color-concrete;
+    border-radius: size(10px) 0 0 size(10px);
+    background-color: $color-concrete;
+  }
+
+  button {
+    display: inline-block;
+    width: size(200px);
+    padding: size(11px) 0 size(13px);
+    margin: 0;
+    font-weight: 700;
+    font-size: size(20px);
+    line-height: size(36px);
+    text-transform: uppercase;
+    color: $color-default-white;
+    border: none;
+    border-radius: 0 size(10px) size(10px) 0;
+    background-color: $color-half-baked;
+    transition: all 0.3s ease 0s;
+  }
+}

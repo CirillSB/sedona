@@ -1,0 +1,19 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: $color-nepal;
+  background-image: url("../img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: size(94px) 0;
+}
+
+.subscribe__title {
+  margin: 0 0 size(29px);
+}
+
+.subscribe__subtitle {
+  margin: 0 0 size(46px);
+}

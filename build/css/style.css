@@ -1434,6 +1434,10 @@ button,
   text-align: center;
 }
 
+.subtitle--light {
+  color: #ffffff;
+}
+
 .title {
   font-weight: 700;
   font-size: 2.5vw;
@@ -1441,6 +1445,10 @@ button,
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+}
+
+.title--light {
+  color: #ffffff;
 }
 
 .welcome__banner {
@@ -1600,6 +1608,75 @@ button,
 
 .booking__subtitle {
   margin: 0 0 4.6666666667vw;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: #90acba;
+  background-image: url("../img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7.8333333333vw 0;
+}
+
+.subscribe__title {
+  margin: 0 0 2.4166666667vw;
+}
+
+.subscribe__subtitle {
+  margin: 0 0 3.8333333333vw;
+}
+
+.subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.subscribe-form input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50vw;
+  height: 5vw;
+  padding: 0 1.8333333333vw;
+  font-size: 1.5vw;
+  line-height: 1.75vw;
+  color: #000000;
+  border: 0.0833333333vw solid #f2f2f2;
+  border-radius: 0.8333333333vw 0 0 0.8333333333vw;
+  background-color: #f2f2f2;
+}
+
+.subscribe-form button {
+  display: inline-block;
+  width: 16.6666666667vw;
+  padding: 0.9166666667vw 0 1.0833333333vw;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.6666666667vw;
+  line-height: 3vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 0.8333333333vw 0.8333333333vw 0;
+  background-color: #82b3d3;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 /* @mixin hover-focus {
