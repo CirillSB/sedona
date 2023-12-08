@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: size(45px) size(70px) size(35px);
+}
+
+.footer__phone {
+  font-size: size(40px);
+  line-height: size(40px);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-default-black;
+  padding-bottom: size(1px);
+  transition: all 0.3s ease 0s;
+}
