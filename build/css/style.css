@@ -1734,7 +1734,7 @@ button,
   margin: 0;
 }
 
-.cocial-list__link {
+.social-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1746,7 +1746,7 @@ button,
   align-items: center;
 }
 
-.cocial-list__icon {
+.social-list__icon {
   width: 2vw;
   height: 1.75vw;
 }
